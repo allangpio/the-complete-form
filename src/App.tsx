@@ -1,8 +1,13 @@
 import React from 'react';
+import Header from './components/Header'
+import { Global } from './sytles/global'
 
 function App() {
   return (
-    <h1>The Complete Form</h1>
+    <>
+      <Header />
+      <Global />
+    </>
   );
 }
 
