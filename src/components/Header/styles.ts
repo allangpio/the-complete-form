@@ -15,6 +15,8 @@ export const Logo = styled.h1`
   color: #010003;
   font-size: 4rem;
   margin: 0 2rem 0 auto;
+
+  user-select: none;
 `;
 
 export const LinkList = styled.ul`
