@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import { Container, Logo, LinkList } from './styles';
 
@@ -6,9 +7,9 @@ const Header: React.FC = () => {
   return (
     <Container>
       <LinkList>
-        <li><a href="fjdkla">home</a></li>
-        <li><a href="fjdkla">form</a></li>
-        <li><a href="fjdkla">clients</a></li>
+        <li><Link to="/">home</Link></li>
+        <li><Link to="/form">form</Link></li>
+        <li><Link to="/clients">clients</Link></li>
       </LinkList>
       <Logo>TCF</Logo>
     </Container>

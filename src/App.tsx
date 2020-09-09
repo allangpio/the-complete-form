@@ -1,7 +1,8 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
 
 import Header from './components/Header';
-import Home from './pages/Home';
+import Routes from './routes'
 import Footer from './components/Footer';
 
 import { Global } from './sytles/global'
@@ -9,8 +10,10 @@ import { Global } from './sytles/global'
 function App() {
   return (
     <>
-      <Header />
-      <Home />
+      <BrowserRouter>
+        <Header />
+        <Routes />
+      </BrowserRouter>
       <Footer />
       <Global />
     </>
