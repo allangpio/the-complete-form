@@ -11,17 +11,20 @@ export const Container = styled.div`
 
   text-align: center;
 
-  color: #fff;
+  color: #232323;
 
-  h3{
-    font-size: 2.5rem;
-    width: 70%;
+  a {
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: medium;
+    width: 25ch;
     margin: 1.25rem 0;
+    color: inherit;
   }
 `;
 
 export const FormCard = styled.div`
-  background: linear-gradient( rgba(208, 119, 35, 0.6) 100%, rgba(208, 119, 35, 0.6)100%),url(${formBg}) no-repeat center;
+  background: linear-gradient( rgba(196, 196, 196, 0.5) 100%, rgba(196, 196, 196, 0.5)100%),url(${formBg}) no-repeat center;
   background-size: cover;
   flex: 1;
 
@@ -32,7 +35,7 @@ export const FormCard = styled.div`
 `;
 
 export const ClientsCard = styled.div`
-  background: linear-gradient( rgba(207, 139, 38, 0.7) 100%,rgba(207, 139, 38, 0.7)100%),url(${clientsBg}) no-repeat center;
+  background: linear-gradient( rgba(196, 196, 196, 0.5) 100%,rgba(196, 196, 196, 0.5)100%),url(${clientsBg}) no-repeat center;
   background-size: cover;
   flex: 1;
 

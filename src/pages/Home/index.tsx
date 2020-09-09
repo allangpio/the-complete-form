@@ -8,11 +8,15 @@ const Home: React.FC = () => {
     <Container>
       <FormCard>
         <FaWpforms size={60} />
-        <h3>Fill up this form and get to be seen by thousands of people</h3>
+        <a href="fdjksal">
+          Fill up this form and get to be seen by thousands of people
+        </a>
       </FormCard>
       <ClientsCard>
         <FaUsers size={60} />
-        <h3>Take a glance at some of our clients</h3>
+        <a href="fdkajs">
+          Take a glance at some of our clients
+        </a>
       </ClientsCard>
     </Container>
   )
