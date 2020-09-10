@@ -7,13 +7,19 @@ const Header: React.FC = () => {
   return (
     <Container>
       <LinkList>
-        <li><Link to="/">home</Link></li>
-        <li><Link to="/form">form</Link></li>
-        <li><Link to="/clients">clients</Link></li>
+        <li>
+          <Link to="/">home</Link>
+        </li>
+        <li>
+          <Link to="/step1">form</Link>
+        </li>
+        <li>
+          <Link to="/clients">clients</Link>
+        </li>
       </LinkList>
       <Logo>TCF</Logo>
     </Container>
-  )
-}
+  );
+};
 
 export default Header;

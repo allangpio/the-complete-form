@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-use-before-define
 import React, { InputHTMLAttributes, useRef, useEffect } from 'react';
 import { useField } from '@unform/core';
 

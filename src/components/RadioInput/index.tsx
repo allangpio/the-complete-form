@@ -1,3 +1,6 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable no-param-reassign */
+// eslint-disable-next-line no-use-before-define
 import React, { useEffect, useRef, InputHTMLAttributes } from 'react';
 
 import { useField } from '@unform/core';
