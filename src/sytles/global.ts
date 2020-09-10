@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from 'styled-components';
 
 export const Global = createGlobalStyle`
   *{
@@ -16,7 +16,7 @@ export const Global = createGlobalStyle`
     overflow: hidden;
   }
 
-  body, input, button {
+  body, button {
     font: 16px Oswald, sans-serif;
   }
 
@@ -24,10 +24,20 @@ export const Global = createGlobalStyle`
     font-weight: 500;
   }
 
+  input {
+    background: #f5f5f0;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
+    border: 0;
+    border-radius: 100px;
+    font: 14px Oswald, sans-serif;
+    padding: 0.2rem .8rem;
+    color: #636262;
+  }
 
 
   button {
     cursor: pointer;
     color: #f5f5f0;
+
   }
 `;

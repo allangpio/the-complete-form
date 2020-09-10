@@ -5,14 +5,14 @@ import { Switch, Route } from 'react-router-dom';
 
 
 import Home from '../pages/Home';
-import Form from '../pages/Form';
+import CompleteForm from '../pages/Form';
 import Clients from '../pages/Clients';
 
 const Routes: React.FC = () => {
   return (
     <Switch>
       <Route path='/' exact component={Home} />
-      <Route path='/form' component={Form} />
+      <Route path='/form' component={CompleteForm} />
       <Route path='/clients' component={Clients} />
     </Switch>
   )

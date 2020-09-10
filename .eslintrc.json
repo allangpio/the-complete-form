@@ -24,8 +24,8 @@
   },
   "plugins": [
     "react",
-    "@typescript-eslint",
     "react-hooks",
+    "@typescript-eslint",
     "prettier"
   ],
   "rules": {
@@ -42,11 +42,12 @@
       }
     ],
     "import/prefer-default-export": "off",
-    "settings": {
-      "import/resolver": {
-        "typescript": {}
+    "@typescript-eslint/explicit-function-return-type": [
+      "error",
+      {
+        "allowExpressions": true
       }
-    },
+    ],
     "import/extensions": [
       "error",
       "ignorePackages",
@@ -55,5 +56,10 @@
         "tsx": "never"
       }
     ]
+  },
+  "settings": {
+    "import/resolver": {
+      "typescript": {}
+    }
   }
 }
